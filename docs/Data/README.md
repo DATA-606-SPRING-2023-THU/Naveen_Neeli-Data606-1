@@ -33,13 +33,13 @@ ORIGINDATETIME_TR	DATE			Pick up date and time	 <br>
 DESTINATIONDATETIME_TRDATE			Drop off date and time	 <br>
 
 ## Extra information
-Payment Type <br>
+##Payment Type <br>
 1.	Credit <br>
 2.	Cash <br>
 3.	EHail  <br>
 4.	Other (not sure how common this is) <br>
 5.	Uber (not sure how common this is) <br>
-Trip Type <br>
+##Trip Type <br>
 1.	Ordinal (normal rate) <br>
 2.	VoD <br>
 3.	TransportDC (grant program) <br>
