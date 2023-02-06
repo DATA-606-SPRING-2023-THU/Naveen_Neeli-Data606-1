@@ -39,6 +39,7 @@ Payment Type <br>
 3.	EHail  <br>
 4.	Other (not sure how common this is) <br>
 5.	Uber (not sure how common this is) <br>
+
 Trip Type <br>
 1.	Ordinal (normal rate) <br>
 2.	VoD <br>
