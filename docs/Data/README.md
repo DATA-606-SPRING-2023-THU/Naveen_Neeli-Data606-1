@@ -32,7 +32,7 @@ AIRPORT			CHAR(1)		Pick up or drop off 									location is a local airport 				
 ORIGINDATETIME_TR	DATE			Pick up date and time	 <br>
 DESTINATIONDATETIME_TRDATE			Drop off date and time	 <br>
 
-## Extra information
+## Additional Information
 Payment Type <br>
 1.	Credit <br>
 2.	Cash <br>
