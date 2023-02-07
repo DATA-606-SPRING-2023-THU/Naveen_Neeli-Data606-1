@@ -1,7 +1,7 @@
 ## About the project
 
 ## Goal
-My initial thoughts about the project is to predict taxi fares which would helpful for the user to plan his trip. <br>
+My initial thoughts about the project is to predict taxi fares which would be helpful for the user to plan his/her trip. <br>
 
 ## Model
 I would like to apply couple of machine learning algorithms like Linear regression, XBoost, RandomForest on the data and compare their performances using Mean Absolute Error. Finally pick the best performing algorithm. <br>
