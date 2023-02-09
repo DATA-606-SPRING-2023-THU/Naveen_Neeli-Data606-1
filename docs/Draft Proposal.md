@@ -3,17 +3,6 @@
 ## Goal
 My initial thoughts about the project is to predict taxi fares which would be helpful for the user to plan his/her trip. <br>
 
-## Model
-I would like to apply couple of machine learning algorithms like Linear regression, XBoost, RandomForest on the data and compare their performances using Mean Absolute Error. Finally pick the best performing algorithm. <br>
-
-## Front End
-I would like to implement a webpage where it takes information like source and destination from the customer then provides the estimated fare for the trip. <br>
-
-## Cloud Storage
-I would like store my data in the S3 bucket of AWS and acces it in my python program. <br>
-
-## Source of Data
-I have choosen DC taxi rides dataset available at https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore 
 
 ## Data Columns
 
@@ -68,3 +57,15 @@ Trip Type <br>
 My X variables would be PROVIDERNAME, FAREAMOUNT, GRATUITYAMOUNT, SURCHARGEAMOUNT, EXTRAFAREAMOUNT, TOLLAMOUNT, PAYMENTTYPE, ORIGINCITY, ORIGINSTATE, DESTINATIONCITY, DESTINATIONSTATE, MILEAGE, DURATION, ORIGIN_BLOCK_LATITUDE	NUMBER, ORIGIN_BLOCK_LongNUMBER	NUMBER, DESTINATIONDATETIME_TRDATE
 
 My Y variable would be TOTALAMOUNT
+
+## Model
+I would like to apply couple of machine learning algorithms like Linear regression, XBoost, RandomForest on the data and compare their performances using Mean Absolute Error. Finally pick the best performing algorithm. <br>
+
+## Front End
+I would like to implement a webpage where it takes information like source and destination from the customer then provides the estimated fare for the trip. <br>
+
+## Cloud Storage
+I would like store my data in the S3 bucket of AWS and acces it in my python program. <br>
+
+## Source of Data
+I have choosen DC taxi rides dataset available at https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore 
