@@ -35,6 +35,13 @@ My initial thoughts about the project is to predict taxi fares which would be he
 27. ORIGINDATETIME_TR	DATE			           Pick up date and time	 <br>
 28. DESTINATIONDATETIME_TRDATE			       Drop off date and time	 <br>
 
+Total files: 12 (each file represents each month of 2022)
+Size : 25 - 65 MB
+Rows: 3 M (All files together)
+Columns: 28
+Source: OpenData.DC.gov
+https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore
+
 ## Additional Information
 Payment Type <br>
 1.	Credit <br>
@@ -66,6 +73,3 @@ I would like to implement a webpage where it takes information like source and d
 
 ## Cloud Storage
 I would like store my data in the S3 bucket of AWS and acces it in my python program. <br>
-
-## Source of Data
-I have choosen DC taxi rides dataset available at https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore 
