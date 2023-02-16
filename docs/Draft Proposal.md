@@ -3,7 +3,7 @@
 ## Goal
 My initial thoughts about the project is to predict taxi fares in DC city which would be helpful for the user to plan his/her trip. <br>
 
-## Abount Data
+## About Data
 
 Total files: 12 (each file represents each month of 2022) <br>
 Size : 25 - 65 MB <br>
