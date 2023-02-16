@@ -1,7 +1,7 @@
 ## About the project
 
 ## Goal
-My initial thoughts about the project is to predict taxi fares which would be helpful for the user to plan his/her trip. <br>
+My initial thoughts about the project is to predict taxi fares in DC city which would be helpful for the user to plan his/her trip. <br>
 
 
 ## Data Columns
