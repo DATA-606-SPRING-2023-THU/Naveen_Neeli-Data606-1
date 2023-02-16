@@ -3,6 +3,15 @@
 ## Goal
 My initial thoughts about the project is to predict taxi fares in DC city which would be helpful for the user to plan his/her trip. <br>
 
+## Abount Data
+
+Total files: 12 (each file represents each month of 2022) <br>
+Size : 25 - 65 MB <br>
+Rows: 3 M (All files together) <br>
+Columns: 28 <br>
+Source: OpenData.DC.gov <br>
+https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore
+
 
 ## Data Columns
 
@@ -34,13 +43,6 @@ My initial thoughts about the project is to predict taxi fares in DC city which 
 26. AIRPORT			CHAR(1)		                 Pick up or drop off 									
 27. ORIGINDATETIME_TR	DATE			           Pick up date and time	 <br>
 28. DESTINATIONDATETIME_TRDATE			       Drop off date and time	 <br>
-
-Total files: 12 (each file represents each month of 2022) <br>
-Size : 25 - 65 MB <br>
-Rows: 3 M (All files together) <br>
-Columns: 28 <br>
-Source: OpenData.DC.gov <br>
-https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore
 
 ## Additional Information
 Payment Type <br>
