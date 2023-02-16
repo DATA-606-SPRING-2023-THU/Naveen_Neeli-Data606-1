@@ -46,19 +46,6 @@ https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore
 Payment Type <br>
 1.	Credit <br>
 2.	Cash <br>
-3.	EHail  <br>
-4.	Other (not sure how common this is) <br>
-5.	Uber (not sure how common this is) <br>
-
-Trip Type <br>
-1.	Ordinal (normal rate) <br>
-2.	VoD <br>
-3.	TransportDC (grant program) <br>
-4.	TransportDCShared (grant program) <br>
-5.	MOVA (grant program) <br>
-6.	CFSA (grant program) <br>
-7.	NRS (grant program) <br>
-8.	NEMT (grant program <br>
 
 ## Feature Selection
 My X variables would be PROVIDERNAME, FAREAMOUNT, GRATUITYAMOUNT, SURCHARGEAMOUNT, EXTRAFAREAMOUNT, TOLLAMOUNT, PAYMENTTYPE, ORIGINCITY, ORIGINSTATE, DESTINATIONCITY, DESTINATIONSTATE, MILEAGE, DURATION, ORIGIN_BLOCK_LATITUDE	NUMBER, ORIGIN_BLOCK_LongNUMBER	NUMBER, DESTINATIONDATETIME_TRDATE
@@ -73,3 +60,8 @@ I would like to implement a webpage where it takes information like source and d
 
 ## Cloud Storage
 I would like store my data in the S3 bucket of AWS and acces it in my python program. <br>
+
+## Flask
+Python-based Flask is a microweb framework. <br>
+It helps to integrate a web page(html code) to the model(python code) and allows a two way communication in this project.
+
