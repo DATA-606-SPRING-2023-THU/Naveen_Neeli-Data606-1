@@ -2,7 +2,7 @@
 
 ## Taxi Fare Prediction using interactive web page
 
-PPT Link:
+PPT:
 https://docs.google.com/presentation/d/1VjqU7xMqhwdApc4w-tstn-LE7akpWSk5DnynYyUA0Z8/edit?usp=sharing
 
 Youtube:
