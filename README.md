@@ -1,6 +1,6 @@
 # UMBC Data Science Capstone Project
 
-# Taxi Fare Prediction using interactive web page
+## Taxi Fare Prediction using interactive web page
 
 PPt Link:
 https://docs.google.com/presentation/d/1VjqU7xMqhwdApc4w-tstn-LE7akpWSk5DnynYyUA0Z8/edit?usp=sharing
