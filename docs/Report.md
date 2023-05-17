@@ -14,6 +14,12 @@ The total fare depends upon various attributes like distance, day of week, hour,
 Giving user an interactive page to provide source and destination information. Predicting the appropriate fare for the ride using 
 machine learning model and reverting back to the user with fare display in USD.
 
+# Work Flow
+
+                         
+<img width="953" alt="Snip_TEMP0001" src="https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/dceb9f28-5d28-4fa7-b644-ed6faedc68e6">
+
+
 ## About Data:
 
 Total files: 12 (each file represents each month of 2022)
@@ -54,15 +60,34 @@ https://opendata.dc.gov/documents/2b61c28adfbd431587ec728829cceb6e/explore
 27. ORIGINDATETIME_TR	DATE			           Pick up date and time	 <br>
 28. DESTINATIONDATETIME_TRDATE			       Drop off date and time	 <br>
 
-# Work Flow
+## Data Preprocessing:
+Handled missing values using various techniques like replacing by average value of column
+Casting data type
+Created new features with existing features
+Identified and removed outliers using visualization techniques
 
-                         
+## Machine learning model:
+XGBoost:
+
+XGBoost regressor, short for Extreme Gradient Boosting, is a highly effective machine learning algorithm widely used for regression tasks. It combines the gradient boosting framework with decision trees as base models. By sequentially adding trees that correct the errors made by previous trees, XGBoost improves prediction accuracy. It incorporates regularization techniques to prevent overfitting and provides insights into feature importance. Moreover, XGBoost is known for its speed and scalability, making it suitable for handling large datasets. With its flexibility, interpretability, and strong performance, XGBoost regressor has become a popular choice among data scientists for regression problems.
+
+After training the model with preprocessed data, acquired an accuracy of 0.81.Saved the model using pickle file.
+
+## Deploying the Model using Streamlit library:
+
+Streamlit is an open-source Python library used for creating interactive web applications and data dashboards with minimal effort. It simplifies the process of building and deploying web interfaces for machine learning models, data visualizations, and other data-driven applications. With Streamlit, developers can quickly prototype and share their projects without having to write extensive HTML, CSS, or JavaScript code.
+
+Streamlit provides a straightforward and intuitive API that allows users to create interactive elements such as sliders, checkboxes, buttons, and text inputs. It supports real-time updates, making it easy to build responsive and dynamic applications that update instantly as users interact with the interface. Additionally, Streamlit supports integration with popular data science libraries like Pandas, Matplotlib, and TensorFlow, enabling seamless integration of data processing and visualization into the web application.
+
+Overall, Streamlit empowers data scientists and developers to create interactive web applications with ease, enabling them to share their work and insights effectively. Its simplicity and integration capabilities make it a popular choice for quickly building and deploying data-driven applications.
 
 
 
 
+<img width="953" alt="Snip_TEMP0001" src="https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/3e221121-323d-4ca7-a01f-9984b769a553">
 
-<img width="953" alt="Snip_TEMP0001" src="https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/dceb9f28-5d28-4fa7-b644-ed6faedc68e6">
+The above image is exactly how my front end page looks like.
+
 
 
 
