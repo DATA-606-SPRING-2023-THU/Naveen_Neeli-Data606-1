@@ -66,6 +66,8 @@ Casting data type<br>
 Created new features with existing features<br>
 Identified and removed outliers using visualization techniques
 
+## Outliers Visualization using scatterplot:
+
 ![image](https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/4812fc6e-9bfe-458e-aa84-e189253eadea)
 
 ![image](https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/dbbd07c2-faf5-47fc-b80f-f3aebeacde04)
@@ -101,6 +103,7 @@ Overall, Streamlit empowers data scientists and developers to create interactive
 The above image is exactly how front end page looks like. Here the source and destination will be given by the user. When the user clicks predict button, total fare for the given travel information will be displayed to the user.
 
 ## Conclusion:
+After detailed analysis and observation, few features were identified as the very impact features where the total amount depending on. They are "Distance", "Duration", "Day of Week" and "Hour". So these are the features to be considered when booking a taxi service to minimize the travel expenses.
 
 
 
