@@ -83,7 +83,8 @@ XGBoost:
 
 XGBoost regressor, short for Extreme Gradient Boosting, is a highly effective machine learning algorithm widely used for regression tasks. It combines the gradient boosting framework with decision trees as base models. By sequentially adding trees that correct the errors made by previous trees, XGBoost improves prediction accuracy. It incorporates regularization techniques to prevent overfitting and provides insights into feature importance. Moreover, XGBoost is known for its speed and scalability, making it suitable for handling large datasets. With its flexibility, interpretability, and strong performance, XGBoost regressor has become a popular choice among data scientists for regression problems.
 
-After training the model with preprocessed data, acquired an accuracy of 0.81.Saved the model using pickle file.
+After training the model with preprocessed data, acquired an accuracy of 0.81. After training, the model is saved using pickle file for streamlit deployment.
+
 ## Google Platform API:
 Google Cloud Platform (GCP) API refers to a collection of application programming interfaces (APIs) provided by Google that allow developers to access and utilize various services and functionalities offered by the Google Cloud Platform. These APIs enable developers to interact with GCP resources, including storage, computing power, machine learning capabilities, and more, programmatically.
 
