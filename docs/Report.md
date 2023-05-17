@@ -14,12 +14,12 @@ The total fare depends upon various attributes like distance, day of week, hour,
 Giving user an interactive page to provide source and destination information. Predicting the appropriate fare for the ride using 
 machine learning model and reverting back to the user with fare display in USD.
 
-# Work Flow
+## Work Flow:
 
                          
 <img width="953" alt="Snip_TEMP0001" src="https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/dceb9f28-5d28-4fa7-b644-ed6faedc68e6">
 
-
+The above diagram depicts the complete flow of this project.
 ## About Data:
 
 Total files: 12 (each file represents each month of 2022)
@@ -66,6 +66,16 @@ Casting data type<br>
 Created new features with existing features<br>
 Identified and removed outliers using visualization techniques
 
+![image](https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/4812fc6e-9bfe-458e-aa84-e189253eadea)
+
+![image](https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/dbbd07c2-faf5-47fc-b80f-f3aebeacde04)
+
+![image](https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/3dd6a192-3931-4439-8cbd-4ec6bf95a310)
+
+![image](https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/5c81ff8a-f786-455a-a2fc-9d45e67415a1)
+
+The above are few visualizations drawn between different independent features which clearly shows the outliers lied in them. Removing those outliers increased the model accuracy.
+
 ## Machine learning model:
 XGBoost:
 
@@ -86,11 +96,11 @@ Streamlit provides a straightforward and intuitive API that allows users to crea
 Overall, Streamlit empowers data scientists and developers to create interactive web applications with ease, enabling them to share their work and insights effectively. Its simplicity and integration capabilities make it a popular choice for quickly building and deploying data-driven applications.
 
 
-
-
 <img width="953" alt="Snip_TEMP0001" src="https://github.com/Naveen-Neeli/Naveen_Neeli-Data606/assets/91988644/3e221121-323d-4ca7-a01f-9984b769a553">
 
 The above image is exactly how front end page looks like. Here the source and destination will be given by the user. When the user clicks predict button, total fare for the given travel information will be displayed to the user.
+
+## Conclusion:
 
 
 
